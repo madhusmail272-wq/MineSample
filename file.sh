@@ -2,7 +2,7 @@
 
 echo Enter a number
 read num
-if [ $num -ge 0 ]
+if [ $num -gt 0 ]
 then
 	echo entered number is positive
 else
